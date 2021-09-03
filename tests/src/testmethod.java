@@ -13,7 +13,6 @@ public class testmethod {
     @Test
     void shouldConvert2toII() {
         assertEquals("II", Metoder.toRoman(2), "Should return II");
-
     }
 }
 
