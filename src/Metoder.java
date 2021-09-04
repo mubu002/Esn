@@ -1,6 +1,9 @@
 public class Metoder {
     static String toRoman(int k){
         String romedigits = "";
+        if(k == 5){
+            romedigits ="V";
+        }
         if(k == 4){
             romedigits = "IV";
         }else {
