@@ -4,8 +4,11 @@ public class Metoder {
         if (i == 2){
             romedigits = "II";
 
-        }if(i == 1){
+        }else if(i == 1){
             romedigits = "I";
+
+        }else if (i == 3){
+            romedigits = "III";
 
         }
         return romedigits;
