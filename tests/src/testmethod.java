@@ -15,8 +15,12 @@ public class testmethod {
         assertEquals("II", Metoder.toRoman(2), "Should return II");
     }
     @Test
-    void shouldConvert3toII() {
+    void shouldConvert3toIII() {
         assertEquals("III", Metoder.toRoman(3), "Should return III");
+    }
+    @Test
+    void shouldConvert4toIV() {
+        assertEquals("IV", Metoder.toRoman(4), "Should return IV");
     }
 }
 
