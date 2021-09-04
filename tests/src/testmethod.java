@@ -38,5 +38,9 @@ public class testmethod {
     void shouldConvert8toVIII() {
         assertEquals("VIII", Metoder.toRoman(8), "Should return VIII");
     }
+    @Test
+    void shouldConvert9toIX() {
+        assertEquals("IX", Metoder.toRoman(9), "Should return IX");
+    }
 }
 
