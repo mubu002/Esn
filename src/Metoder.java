@@ -1,12 +1,15 @@
 public class Metoder {
     static String toRoman(int k){
         String romedigits = "";
-        if(k == 5){
+        if(k >= 5){
             romedigits ="V";
+            for(int i = 5; i < k; i++){
+                romedigits += "I";
+            }
         }
-        if(k == 4){
+        else if(k == 4){
             romedigits = "IV";
-        }else {
+        }else{
             for (int i = 0; i < k; i++) {
                 romedigits += "I";
             }

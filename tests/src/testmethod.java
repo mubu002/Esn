@@ -22,5 +22,21 @@ public class testmethod {
     void shouldConvert4toIV() {
         assertEquals("IV", Metoder.toRoman(4), "Should return IV");
     }
+    @Test
+    void shouldConvert5toV() {
+        assertEquals("V", Metoder.toRoman(5), "Should return V");
+    }
+    @Test
+    void shouldConvert6toVI() {
+        assertEquals("VI", Metoder.toRoman(6), "Should return VI");
+    }
+    @Test
+    void shouldConvert7toVII() {
+        assertEquals("VII", Metoder.toRoman(7), "Should return VII");
+    }
+    @Test
+    void shouldConvert8toVII() {
+        assertEquals("VIII", Metoder.toRoman(8), "Should return VIII");
+    }
 }
 
