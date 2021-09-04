@@ -1,8 +1,12 @@
 public class Metoder {
     static String toRoman(int k){
         String romedigits = "";
-        for (int i = 0; i < k; i++){
-            romedigits += "I";
+        if(k == 4){
+            romedigits = "IV";
+        }else {
+            for (int i = 0; i < k; i++) {
+                romedigits += "I";
+            }
         }
         return romedigits;
     }
