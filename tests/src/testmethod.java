@@ -42,5 +42,29 @@ public class testmethod {
     void shouldConvert9toIX() {
         assertEquals("IX", Metoder.toRoman(9), "Should return IX");
     }
+    @Test
+    void shouldConvert37toXXXVII() {
+        assertEquals("XXXVII", Metoder.toRoman(37), "Should return XXXVII");
+    }
+    @Test
+    void shouldConvert50toL() {
+        assertEquals("L", Metoder.toRoman(50), "Should return L");
+    }
+    @Test
+    void shouldConvert100toC() {
+        assertEquals("C", Metoder.toRoman(100), "Should return C");
+    }
+    @Test
+    void shouldConvert500toD() {
+        assertEquals("D", Metoder.toRoman(500), "Should return D");
+    }
+    @Test
+    void shouldConvert1000toM() {
+        assertEquals("M", Metoder.toRoman(1000), "Should return M");
+    }
+    @Test
+    void shouldConvert509toDIX() {
+        assertEquals("DIX", Metoder.toRoman(509), "Should return DIX");
+    }
 }
 
